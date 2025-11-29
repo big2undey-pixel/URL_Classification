@@ -14,7 +14,8 @@ warnings.filterwarnings("ignore")
 # -------------------------------------------------------------
 #            CONFIG: SPACE URL
 # -------------------------------------------------------------
-SPACE_API_URL = "https://nayds004-url-predictor-space.hf.space/predict"  # replace with actual Space URL
+SPACE_API_URL = "https://big2undey-url_prediction.hf.space/predict"
+  
 
 # -------------------------------------------------------------
 #            URL VALIDATION
