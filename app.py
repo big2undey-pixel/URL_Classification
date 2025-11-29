@@ -119,9 +119,9 @@ if page == "Project Info":
         st.image(passport_img, caption="Student Passport", width=180)
 
     with col2:
-        student_name = st.text_input("Student Name", value="Chinedu Egbuna")
-        student_course = st.text_input("Course", value="Data Science Project")
-        student_id = st.text_input("Student ID / Matric No.")
+        student_name = st.text_input("Student Name", value="BABATUNDE OKETADE")
+        student_course = st.text_input("Course", value="INFORMATION TECHNOLOGY WITH CYBERSECURITY")
+        student_id = st.text_input("Student ID / Matric No.", value = "2201411")
         supervisor = st.text_input("Supervisor / Lecturer")
         st.markdown("---")
         st.write("**Project description (short):**")
