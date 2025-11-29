@@ -11,10 +11,10 @@ from datetime import date
 # -----------------------------
 # Configuration
 # -----------------------------
-SPACE_API_URL = "https://big2undey-url_prediction.hf.space/predict"  # <- replace with your Space API endpoint
+SPACE_API_URL = "https://big2undey-url-prediction.hf.space/predict"  # <- replace with your Space API endpoint
 
 # -----------------------------
-# Helper / Feature extraction
+# Helper / Feature extractio-
 # -----------------------------
 KEYWORDS = ["login", "secure", "account", "update", "bank", "verify", "confirm", "payment"]
 
