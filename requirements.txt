@@ -4,4 +4,3 @@ joblib
 pandas
 numpy
 requests
-pickle
