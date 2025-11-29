@@ -7,6 +7,7 @@ import re
 import math
 from collections import Counter
 from datetime import date
+from PIL import Image
 
 # -----------------------------
 # Configuration
