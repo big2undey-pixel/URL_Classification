@@ -5,7 +5,7 @@ import numpy as np
 from urllib.parse import urlparse
 import re
 import math
-from collections import Counter
+from collections import CounterUpload Passport Photo
 from datetime import date
 
 # -----------------------------
