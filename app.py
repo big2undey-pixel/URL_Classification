@@ -124,9 +124,11 @@ if page == "Project Info":
         student_id = st.text_input("Student ID / Matric No.", value = "2201411")
         supervisor = st.text_input("Supervisor / Lecturer")
         st.markdown("---")
-        st.write("**Project description (short):**", value = """The SafeURL Predictor is a machine learning–powered application designed to automatically analyze and classify URLs as benign or malicious. 
+        description_note = """The SafeURL Predictor is a machine learning–powered application designed to automatically analyze and classify URLs as benign or malicious. 
         The system extracts key structural and linguistic features from each URL—such as length, entropy, subdomains, presence of suspicious keywords, and potential obfuscation patterns—and feeds them into a trained Random Forest model.
-        The goal of this project is to provide a fast, reliable, and user-friendly tool for detecting phishing attempts, malicious links, and unsafe web resources, thereby enhancing cybersecurity awareness and helping users make safer browsing decisions.""")
+        The goal of this project is to provide a fast, reliable, and user-friendly tool for detecting phishing attempts, malicious links, and unsafe web resources, thereby enhancing cybersecurity awareness and helping users make safer browsing decisions."""
+        
+        st.write("**Project description (short):**", value = description_note)
         proj_desc = st.text_area("", height=120)
 
     if st.button("Save Info"):
