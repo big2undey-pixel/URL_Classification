@@ -129,8 +129,8 @@ The SafeURL Predictor is a machine learning–powered application designed to au
 The system extracts key structural and linguistic features from each URL—such as length, entropy, subdomains, presence of suspicious keywords, and potential obfuscation patterns—and feeds them into a trained Random Forest model.
 The goal of this project is to provide a fast, reliable, and user-friendly tool for detecting phishing attempts, malicious links, and unsafe web resources, thereby enhancing cybersecurity awareness and helping users make safer browsing decisions.
 """
-        st.write("**Project description (short):**", value = description_note)
-        proj_desc = st.text_area("", height=120)
+        st.write("**Project description (short):**")
+        proj_desc = st.text_area(description_note, height=120)
 
     if st.button("Save Info"):
         st.success("Project info saved in session (temporary).")
