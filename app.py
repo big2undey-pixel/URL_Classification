@@ -112,14 +112,10 @@ if page == "Project Info":
     st.markdown("Upload student passport photo and fill project metadata.")
 
     col1, col2 = st.columns([1,2])
+    passport_path = "tunde.png"
     with col1:
-        uploaded = st.file_uploader("Upload Passport Photo (jpg, png)", type=["png","jpg","jpeg"]) 
-        if uploaded:
-            st.session_state['passport'] = uploaded
-            st.image(uploaded, caption="Passport preview", use_column_width=True)
-            st.success("Passport uploaded")
-        elif st.session_state['passport']:
-            st.image(st.session_state['passport'], caption="Passport (saved in session)", use_column_width=True)
+        passport_img = Image.open(passport_path)
+        st.image(passport_img, caption="Student Passport", width=180)
 
     with col2:
         student_name = st.text_input("Student Name", value="Chinedu Egbuna")
