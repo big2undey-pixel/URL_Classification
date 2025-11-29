@@ -14,8 +14,7 @@ warnings.filterwarnings("ignore")
 # -------------------------------------------------------------
 #            CONFIG: SPACE URL
 # -------------------------------------------------------------
-SPACE_API_URL = "https://big2undey-url_prediction.hf.space/predict"
-  
+SPACE_API_URL = "https://big2undey-url-prediction.hf.space/predict"
 
 # -------------------------------------------------------------
 #            URL VALIDATION
